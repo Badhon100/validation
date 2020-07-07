@@ -1,0 +1,20 @@
+.body{
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.title{
+    background: green;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.error{
+    color: red;
+}
+
+#warning{
+    color: olivedrab;
+}
