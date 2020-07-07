@@ -52,6 +52,9 @@ form.addEventListener("submit", (e) => {
   if (password.value.search(/[!/@/#/%/^/&/*/(/)/</>/+/-/_/,]/) == -1) {
     messages.push("Password needs atleast 1 special character");
   }
+  if (email.value == "" || email.value == null) {
+    messages.push("Email is requred");
+  }
 
   if (password.value.length < 8) {
     messages.push("Password must be at least 8 characters");
